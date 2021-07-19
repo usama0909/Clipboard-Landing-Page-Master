@@ -1,0 +1,118 @@
+/* Styles Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@import "scss/fontawesome.scss"
+
+/* Styles Varialbles */
+
+$cyan: hsl(171, 66%, 44%) ;
+$blue: hsl(233, 100%, 69%) ;
+$darkGrayishBlue: hsl(210, 10%, 33%) ;
+$grayishBlue: hsl(201, 11%, 66%);
+
+/* Styling */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: 'Bai Jamjuree';
+    font-size: 18px;
+    text-align: center;
+}
+
+h2{
+    font-weight: 600;
+    font-family: 'Bai Jamjuree';
+    font-size: 32px;
+}
+
+p{
+    font-weight: 400;
+    font-family: 'Bai Jamjuree';
+}
+
+.landing-hero{
+    background-image: url(/images/bg-header-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: auto;
+    margin: 0 0 100px 0;
+}
+
+.logo{
+    padding-top: 150px;
+}
+
+.hero-heading, .hero-paragraph{
+    margin:20px 40px;
+}
+
+.hero-buttons{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.hero-buttons button {
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 0;
+    width: 80%;
+    color: #fff;
+    font-family: 'Bai Jamjuree';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ios-button{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac-button{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.landing-feature-section{
+    margin: 100px 0;
+}
+
+.feature-sec-intro{
+    margin: 0px 30px;
+}
+
+.feature-div-img{
+    width: 100%;
+}
+
+.feature-div-img img{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.feature{
+    margin: 60px 40px;
+}
+
+.feature h2{
+    margin: 10px 0;
+}
+
+.landing-access-section{
+    margin: 100px 0px;
+}
+
+.landing-access-section h2, .landing-access-section p{
+    margin: 30px 40px;
+}
+
+.landing-access-section img{
+    width: 80%;
+    margin: 20px auto;    
+}
