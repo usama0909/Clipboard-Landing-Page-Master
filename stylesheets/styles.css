@@ -24,6 +24,7 @@ body{
     text-align: center;
 }
 
+
 h2{
     font-weight: 600;
     font-family: 'Bai Jamjuree';
@@ -33,6 +34,7 @@ h2{
 p{
     font-weight: 400;
     font-family: 'Bai Jamjuree';
+    color: hsl(210, 10%, 33%);
 }
 
 .landing-hero{
@@ -75,8 +77,16 @@ p{
     background-color: hsl(171, 66%, 44%);
 }
 
+.ios-button:hover{
+    background-color: hsl(171, 66%, 55%);
+}
+
 .mac-button{
     background-color: hsl(233, 100%, 69%);
+}
+
+.mac-button:hover{
+    background-color: hsl(233, 100%, 77%);
 }
 
 .landing-feature-section{
@@ -115,4 +125,302 @@ p{
 .landing-access-section img{
     width: 80%;
     margin: 20px auto;    
+}
+
+.landing-supercharge-section{
+    margin: 10px auto 20px;
+    width: 80%;
+}
+
+.landing-supercharge-section h2{
+    margin:10px 0;
+}
+
+.landing-supercharge-section p{
+    margin: 10px 0 40px 0;
+}
+
+.quality {
+    margin: 60px auto;
+    width: 80%;
+}
+
+.quality img{
+    width: 50px;
+    margin: 20px 0;
+}
+
+.quality h2{
+    margin:20px 0;
+}
+
+.partners{
+    margin: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partner{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.partner img {
+    width: 150px;
+}
+
+.homepage-downloads{
+    margin: 20px auto 60px;
+    width: 80%;
+}
+
+.homepage-downloads p{
+    margin-bottom: 30px;
+}
+
+.footer{
+    background-color: hsl(200, 69%, 97%);
+    padding: 50px 0;
+    margin: 20px auto 0;
+}
+
+.footer-logo{
+    padding-top: 0px;
+    width: 50px;
+}
+
+.footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer ul li{
+    margin: 20px auto;
+}
+
+.social-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 50px auto 0;
+}
+
+.social{
+    width: 33%;
+}
+
+.social img:hover{
+    transform: scale(1.3,1.3);
+}
+
+
+@media (min-width:991px) {
+
+
+    h2{
+        font-weight: 600;
+        font-family: 'Bai Jamjuree';
+        font-size: 28px;
+    }
+    
+    p{
+        font-weight: 400;
+        font-family: 'Bai Jamjuree';
+        color: hsl(210, 10%, 33%);
+    }
+    
+    .landing-hero{
+        margin: 0 0;
+        height: 100vh;
+    }
+    .landing-hero p{
+        width:50%;
+        margin: auto;
+    }
+
+    .hero-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        margin: 40px auto;
+        justify-content: center;
+    }
+
+    .hero-buttons button {
+        display: block;
+        margin: 20px auto;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 20px;
+        width: 80%;
+        color: #fff;
+        font-family: 'Bai Jamjuree';
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .button{
+        width: 50%;
+    }
+
+    
+    .feature-sec-intro{
+        width: 100%;
+    }
+    
+    .feature-sec-intro p{
+        width: 50%;
+        margin: 0px auto 50px;
+    }
+    
+    .feature-sec-div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 0 0 100px;
+    }
+
+    .feature-div-img{
+        width: 50%;
+        position: relative;
+    }
+
+    .feature-div-img img{
+        width: 100%;
+        position: absolute;
+        left: -40px;
+
+    }
+
+    .feature-div-info{
+        width:50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .features-container{
+        width: 70%;
+        margin:  0 0;
+        text-align: left;
+        padding: 0;
+    }
+
+    .feature{
+        margin: 40px 30px;
+    }
+
+    .landing-access-section{
+        margin: 70px 0;
+    }
+
+    .landing-access-section h2{
+        margin: 30px 0 0;
+    }
+
+    .landing-access-section p{
+        width: 50%;
+        margin: 20px auto ;
+    }
+
+    .landing-access-section img{
+        width: 60%;
+        margin-top: 70px;
+    }
+
+    .landing-supercharge-section p{
+        margin: auto;
+    }
+    
+
+    .supercharge-qualities{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+        margin: 30px auto;
+        padding: 0px;
+    }
+
+    .quality{
+        width:33%;
+    }
+
+    .quality img{
+        width: 50px;
+        height: 44px;
+    }
+
+    .quality p{
+        width: 85%;
+        margin: 20px auto;
+    }
+
+    .partners{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 40px auto;
+    }
+
+    .partner{
+        width: 20%;
+    }
+
+    .homepage-downloads{
+        margin: 40px auto;
+    }
+
+    .homepage-downloads p{
+        width: 60%;
+        margin: auto;
+    }
+
+    .footer{
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .img{
+        width: 20%;
+
+    }
+
+    .img img{
+        width: 60px;
+    }
+
+    .footer ul{
+        width: 50%;
+        text-align: left;
+    }
+
+    .footer ul li{
+        display: inline-block;
+        margin: 10px 100px 0 0 ;
+        
+    }
+
+    .footer .social-icons{
+        display: flex;
+        flex-wrap: wrap;
+        width: 15%;
+        justify-self: right;
+    }
+
+    .social{
+        width: 33%;
+
+    }
 }
